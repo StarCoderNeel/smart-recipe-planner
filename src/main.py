@@ -1,0 +1,10 @@
+"""
+smart-recipe-planner - An AI-powered recipe planning tool that learns from user preferences and dietary restrictions to suggest personalized meal plans. It integrates with grocery services for seamless shopping.
+"""
+
+def main():
+    """Main function."""
+    print("Hello from smart-recipe-planner!")
+
+if __name__ == "__main__":
+    main()

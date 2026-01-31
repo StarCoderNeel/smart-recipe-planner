@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-recipe-planner"
+version = "0.1.0"
+description = "An AI-powered recipe planning tool that learns from user preferences and dietary restrictions to suggest personalized meal plans. It integrates with grocery services for seamless shopping."
+dependencies = ['pandas', 'numpy', 'streamlit', 'requests', 'matplotlib']
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+addopts = "-v --tb=short"
